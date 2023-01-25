@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="output">
+          <u
+            ><span><strong>OUTPUT HERE</strong></span></u
+          >
+          <p id="output"></p>
+        </div>
+        <div id="operator2" class="box">
+          <button onclick="operator('%')">%</button>
+        </div>
+        <div id="operator1" class="box">
+          <button onclick="clear()">C</button>
+        </div>
+        <div id="operator3" class="box"><button><</button></div>
+        <div id="operator4" class="box">
+          <button onclick="operator('/')">/</button>
+        </div>
+        <div id="num7" class="box">
+          <button onclick="numbers(7) ">7</button>
+        </div>
+        <div id="num8" class="box"><button onclick="numbers(8)">8</button></div>
+        <div id="num9" class="box"><button onclick="numbers(9)">9</button></div>
+        <div id="operator5" class="box">
+          <button onclick="operator('*')">*</button>
+        </div>
+        <div id="num4" class="box"><button onclick="numbers(4)">4</button></div>
+        <div id="num5" class="box"><button onclick="numbers(5)">5</button></div>
+        <div id="num6" class="box"><button onclick="numbers(6)">6</button></div>
+        <div id="operator6" class="box">
+          <button onclick="operator('-')">-</button>
+        </div>
+        <div id="num1" class="box"><button onclick="numbers(1)">1</button></div>
+        <div id="num2" class="box"><button onclick="numbers(2)">2</button></div>
+        <div id="num3" class="box"><button onclick="numbers(3)">3</button></div>
+        <div class="box" id="operator9">
+          <button onclick="operator('+')">+</button>
+        </div>
+        <div class="box" id="num00">
+          <button onclick="numbers(00)">00</button>
+        </div>
+        <div id="num0" class="box"><button onclick="numbers()">0</button></div>
+        <div id="operator8" class="box">
+          <button onclick="numbers()">.</button>
+        </div>
+        <div id="operator7" class="box"><button>=</button></div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
